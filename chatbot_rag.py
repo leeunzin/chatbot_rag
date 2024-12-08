@@ -5,7 +5,7 @@ import os
 import pandas as pd
 import ast
 
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 import numpy as np
 from numpy import dot
@@ -13,7 +13,7 @@ from numpy.linalg import norm
 
 from streamlit_chat import message
 
-load_dotenv()
+# load_dotenv()
 
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
