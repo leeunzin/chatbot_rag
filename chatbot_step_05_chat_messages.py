@@ -28,7 +28,7 @@ def get_embedding(text):
     return response.data[0].embedding
 
 # folder_path와 file_name을 결합하여 file_path = './data/embedding.csv'
-folder_path = './data'
+folder_path = './'
 file_name = 'embedding.csv'
 file_path = os.path.join(folder_path, file_name)
 
